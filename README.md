@@ -23,8 +23,8 @@ git clone github.com/your_username/repo
     `aws:account_id`    : Your AWS account ID<br>
     `aws:ecr:region`    : Region your registry is located<br>
     `aws:ecr:uri`       : URI for your registry<br>
-    `docker:image_name` : Name for the Docker image. This must also match the 
-    `repositry` name you created in ECR
+    `docker:image_name` : Name for the Docker image (Must match the `repositry` 
+    name you created in ECR)
 
 Example
 
