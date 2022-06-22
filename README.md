@@ -38,10 +38,10 @@ locally via the command line or by [Github Actions](https://github.com/actions).
 
 #### Modify the `makefile.json` file
 
-`aws:account_id`    : Your AWS account ID<br>
+1. `aws:account_id`    : Your AWS account ID<br>
 `aws:ecr:region`    : Region your registry is located<br>
 `aws:ecr:uri`       : URI for your registry<br>
-`docker:image_name` : Name for the Docker image (Must match the `repositry` 
+`docker:image_name` : Name for the Docker image (Must match the `repository` 
 name you created in ECR)
 
     Example
