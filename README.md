@@ -44,7 +44,7 @@ locally via the command line or by [Github Actions](https://github.com/actions).
 `docker:image_name` : Name for the Docker image (Must match the `repository` 
 name you created in ECR)
 
-    Example
+    Example:
 
     ```json
     {
