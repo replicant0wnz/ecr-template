@@ -18,13 +18,13 @@ git clone github.com/your_username/repo
 
 3. Modify the `makefile.json` file
 
-Should be self-explanitory
+    Should be self-explanitory
 
-`aws:account_id`    : Your AWS account ID<br>
-`aws:ecr:region`    : Region your registry is located<br>
-`aws:ecr:uri`       : URI for your registry<br>
-`docker:image_name` : Name for the Docker image. This must also match the 
-`repositry` name you created in Step 1.<br>
+    `aws:account_id`    : Your AWS account ID<br>
+    `aws:ecr:region`    : Region your registry is located<br>
+    `aws:ecr:uri`       : URI for your registry<br>
+    `docker:image_name` : Name for the Docker image. This must also match the 
+    `repositry` name you created in Step 1.<br>
 
 Example
 
