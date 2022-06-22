@@ -24,7 +24,7 @@ git clone github.com/your_username/repo
     `aws:ecr:region`    : Region your registry is located<br>
     `aws:ecr:uri`       : URI for your registry<br>
     `docker:image_name` : Name for the Docker image. This must also match the 
-    `repositry` name you created in Step 1.<br>
+    `repositry` name you created in ECR
 
 Example
 
