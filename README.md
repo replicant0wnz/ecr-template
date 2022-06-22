@@ -30,19 +30,19 @@ locally via the command line or by [Github Actions](https://github.com/actions).
     ```
 
 2. Copy the `Makefile`, `makefile.json`, and the `.github/workflows/release.yml` 
-   files to your repos directory.
+   files to your repo directory.
 
-   ```bash
-   cp Makefile makefile.json .github/workflows/release.yml /path/to/your/repo
-   ```
+    ```bash
+    cp Makefile makefile.json .github/workflows/release.yml /path/to/your/repo
+    ```
 
 #### Modify the `makefile.json` file
 
-    `aws:account_id`    : Your AWS account ID<br>
-    `aws:ecr:region`    : Region your registry is located<br>
-    `aws:ecr:uri`       : URI for your registry<br>
-    `docker:image_name` : Name for the Docker image (Must match the `repositry` 
-    name you created in ECR)
+`aws:account_id`    : Your AWS account ID<br>
+`aws:ecr:region`    : Region your registry is located<br>
+`aws:ecr:uri`       : URI for your registry<br>
+`docker:image_name` : Name for the Docker image (Must match the `repositry` 
+name you created in ECR)
 
     Example
 
