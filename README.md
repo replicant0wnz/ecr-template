@@ -1,6 +1,6 @@
 # ecr-template
 Template for deploying Docker containers to [Amazon Elastic Container 
-Registry](https://aws.amazon.com/ecr)
+Registry](https://aws.amazon.com/ecr) (ECR)
 
 ## Usage
 
@@ -12,11 +12,14 @@ Registry](https://aws.amazon.com/ecr)
 
 2. Clone the template locally
 
-```bash
-git clone github.com/your_username/repo
-```
+    ```bash
+    git clone github.com/your_username/repo
+    ```
 
-3. Modify the `makefile.json` file
+3. Either copy the contents of this directory sans `Dockerfile` to your source 
+   Docker directory or vice versa
+
+4. Modify the `makefile.json` file
 
     `aws:account_id`    : Your AWS account ID<br>
     `aws:ecr:region`    : Region your registry is located<br>
@@ -42,4 +45,4 @@ git clone github.com/your_username/repo
 
     ```
 
-### Deploy locally
+### Deploy to ECR locally
