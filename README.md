@@ -70,11 +70,11 @@ name you created in ECR)
 #### Via the command line
 
 1. Setup your AWS credentials via the `AWS_ACCESS_KEY_ID` and 
-   `AWS_SECRET_ACCESS_KEY` environment variables. Example:
+   `AWS_SECRET_ACCESS_KEY` environment variables. 
 
-```bash
-export AWS_ACCESS_KEY_ID=`grep aws_access_key_id ~/.aws/credentials | awk 
-'{print $3}'`
-export AWS_SECRET_ACCESS_KEY=`grep aws_secret_access_key ~/.aws/credentials | 
-awk '{print $3}'`
-```
+    Example:
+
+    ```bash
+    export AWS_ACCESS_KEY_ID=`grep aws_access_key_id ~/.aws/credentials | awk '{print $3}'`
+    export AWS_SECRET_ACCESS_KEY=`grep aws_secret_access_key ~/.aws/credentials | awk '{print $3}'`
+    ```
