@@ -1,25 +1,42 @@
 # ecr-template
 Template for deploying Docker containers to [Amazon Elastic Container 
-Registry](https://aws.amazon.com/ecr) (ECR)
+Registry](https://aws.amazon.com/ecr) (ECR). It allows you to either deploy 
+locally via the command line or by [Github Actions](https://github.com/actions).
 
 ## Usage
 
 ### Setup
 
+#### New repo
+
 1. Create a new repo by following the [Creating a repository from a 
    template](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template) 
    guide.
 
-2. Clone the template locally
+2. Clone the repo
 
     ```bash
     git clone github.com/your_username/repo
     ```
 
-3. Either copy the contents of this directory sans `Dockerfile` to your source 
-   Docker directory or vice versa
+3. Copy the files and `Dockerfile` needed for your container to the cloned repo.
 
-4. Modify the `makefile.json` file
+#### Existing repo
+
+1. Clone this repo
+
+    ```bash
+    git clone github.com/replicant0wnz/ecr-template
+    ```
+
+2. Copy the `Makefile`, `makefile.json`, and the `.github/workflows/release.yml` 
+   files to your repos directory.
+
+   ```bash
+   cp Makefile makefile.json .github/workflows/release.yml /path/to/your/repo
+   ```
+
+#### Modify the `makefile.json` file
 
     `aws:account_id`    : Your AWS account ID<br>
     `aws:ecr:region`    : Region your registry is located<br>
