@@ -18,30 +18,28 @@ git clone github.com/your_username/repo
 
 3. Modify the `makefile.json` file
 
-    Should be self-explanitory
-
     `aws:account_id`    : Your AWS account ID<br>
     `aws:ecr:region`    : Region your registry is located<br>
     `aws:ecr:uri`       : URI for your registry<br>
     `docker:image_name` : Name for the Docker image (Must match the `repositry` 
     name you created in ECR)
 
-Example
+    Example
 
-```json
-{
-    "aws": {
-        "account_id" : "123456789012",
-        "ecr" : {
-            "region" : "us-east-1",
-            "uri" : "public.ecr.aws/your_ecr"
+    ```json
+    {
+        "aws": {
+            "account_id" : "123456789012",
+            "ecr" : {
+                "region" : "us-east-1",
+                "uri" : "public.ecr.aws/your_ecr"
+            }
+        },
+        "docker": {
+            "image_name" : "alpine"
         }
-    },
-    "docker": {
-        "image_name" : "alpine"
     }
-}
 
-```
+    ```
 
 ### Deploy locally
