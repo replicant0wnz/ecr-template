@@ -88,3 +88,13 @@ name you created in ECR)
    Example:
 
    ![Example](https://github.com/replicant0wnz/ecr-template/blob/assets/secrets.png)
+
+2. Update the following section of `.github/actions/release` with the version tag you'd like
+   to use. ie `v1.*` or `1.*` or `release-*` etc
+
+   ```yaml
+    on: 
+      push:
+        tags:
+          - 1.*
+   ```
