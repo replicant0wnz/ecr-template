@@ -98,3 +98,9 @@ name you created in ECR)
         tags:
           - 1.*
    ```
+
+3. Tag the release to deploy. Example:
+
+   ```bash
+   git tag 1.1.2 ; git push origin --tags
+   ```
