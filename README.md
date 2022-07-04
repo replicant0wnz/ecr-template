@@ -81,3 +81,10 @@ name you created in ECR)
 2. Execute `make all`
 
 #### Github Actions via a tag
+
+1. Setup your AWS credntials under Settings -> Secrets -> Actions. Refer to
+   [Encrypted secrets](https://docs.github.com/en/actions/security-guides/encrypted-secrets) 
+
+   Example:
+
+   ![Example](https://github.com/replicant0wnz/ecr-template/blob/assets/secrets.png)
