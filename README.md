@@ -1,6 +1,6 @@
 # ecr-template
 
-[![GitHub Actions](https://img.shields.io/badge/use%20this-template-blue?logo=github)](https://github.com/badges/shields/generate)
+[![GitHub Actions](https://img.shields.io/badge/use%20this-template-blue?logo=github)](https://github.com/replicant0wnz/ecr-template/generate)
 [![Latest commit](https://img.shields.io/github/last-commit/replicant0wnz/ecr-template)](https://github.com/replicant0wnz/ecr-template/commits/main)
 [![LICENSE](https://img.shields.io/github/license/replicant0wnz/ecr-template)](https://github.com/replicant0wnz/ecr-template/blob/main/LICENSE)
 
