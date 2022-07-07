@@ -1,5 +1,9 @@
 # ecr-template
 
+[![GitHub Actions](https://img.shields.io/badge/use%20this-template-blue?logo=github)](https://github.com/badges/shields/generate)
+[![Latest commit](https://img.shields.io/github/last-commit/replicant0wnz/ecr-template)](https://github.com/replicant0wnz/ecr-template/commits/main)
+[![LICENSE](https://img.shields.io/github/license/replicant0wnz/ecr-template)](https://github.com/replicant0wnz/ecr-template/blob/main/LICENSE)
+
 ![Makefile](https://repository-images.githubusercontent.com/506043534/2a6e120c-bd26-4ea9-99f0-2e42431a47b4)
 
 Template for deploying Docker containers to [Amazon Elastic Container 
